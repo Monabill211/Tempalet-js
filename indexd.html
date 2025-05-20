@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>design</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script
+      src="https://kit.fontawesome.com/1fbbe0b01a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- start setting box -->
+    <div class="setting-box">
+      <div class="toggel"><i class="fa fa-gear"></i></div>
+      <div class="setting-container">
+        <div class="option-box">
+          <h4 class="colors">colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#03a9f4"></li>
+            <li data-color="#4caf50"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Bckgrounds</h4>
+          <div class="random-background">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Shwo Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="shwo">Yes</span>
+            <span class="no" data-display="hid">No</span>
+          </div>
+        </div>
+        <button class="reset-options">Reset Option</button>
+      </div>
+    </div>
+    <!-- end setting box -->
+    <!-- START nav bullets -->
+    <div class="nav-bullets">
+      <div class="nav-bullet" data-section=".about-us">
+        <div class="tooltib">About Us</div>
+      </div>
+      <div class="nav-bullet" data-section=".skills">
+        <div class="tooltib">Our Skills</div>
+      </div>
+      <div class="nav-bullet" data-section=".gallery">
+        <div class="tooltib">Our Gallery</div>
+      </div>
+      <div class="nav-bullet" data-section=".timeline">
+        <div class="tooltib">TimeLine</div>
+      </div>
+      <div class="nav-bullet" data-section=".features">
+        <div class="tooltib">Features</div>
+      </div>
+      <div class="nav-bullet" data-section=".testimonials ">
+        <div class="tooltib">Testimonials</div>
+      </div>
+      <div class="nav-bullet" data-section=".contact ">
+        <div class="tooltib">Contact Us</div>
+      </div>
+    </div>
+    <!-- end nav bullets -->
+
+    <!-- start lading-->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-eraa">
+          <div class="logo">special desing</div>
+          <div class="servses">
+            <div class="links-container">
+              <ul class="links">
+                <li><a href="#" data-section=".about-us">About</a></li>
+                <li><a href="#" data-section=".skills">Skills</a></li>
+                <li><a href="#" data-section=".gallery">Gallery</a></li>
+                <li><a href="#" data-section=".timeline">TimeLine</a></li>
+                <li><a href="#" data-section=".features">Features</a></li>
+                <li>
+                  <a href="#" data-section=".testimonials">Testimonials</a>
+                </li>
+                <li><a href="#" data-section=".contact">Contact Us</a></li>
+              </ul>
+              <button class="toggle-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text">
+        <h1>we are <span>creative</span> agency</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          ducimus dolor velit necessitatibus, vitae sed tempore
+        </p>
+      </div>
+    </div>
+    <!-- end lading-->
+
+    <!-- start about us -->
+    <div class="about-us">
+      <div class="container">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            animi odit culpa hic optio ipsam nobis, praesentium ut est
+            consequuntur iusto asperiores enim, in necessitatibus, maiores
+            voluptate quam recusandae atque.
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="iamge/download (8).jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end about us -->
+
+    <!-- start our skills -->
+
+    <div class="skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="name">JAVA SCRIPT</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="name">Pythom</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="name">PhP</div>
+          <div class="skill-progress">
+            <span data-progress="60%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="name">My SQL</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our skills -->
+
+    <!--start gallery-->
+    <div class="gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="images-box">
+          <img src="iamge/download (1).jpg" alt="image one" />
+          <img src="iamge/download (2).jpg" alt="image two" />
+          <img src="iamge/download (3).jpg" alt="image three" />
+          <img src="iamge/download (4).jpg" alt="image four" />
+          <img src="iamge/download (5).jpg" alt="image five" />
+          <img src="iamge/download (6).jpg" alt="" />
+          <img src="iamge/download (7).jpg" alt="" />
+          <img src="iamge/download (8).jpg" alt="" />
+          <img src="iamge/download (9).jpg" alt="" />
+          <img src="iamge/download (10).jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!--end gallery-->
+
+    <!-- start timeline -->
+
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2018</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heding</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                accusamus neque blanditiis voluptatem autem tenetur dicta
+                maiores quam tempora corporis totam provident omnis eius iure
+                rerum soluta veniam, ratione in.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heding</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                accusamus neque blanditiis voluptatem autem tenetur dicta
+                maiores quam tempora corporis totam provident omnis eius iure
+                rerum soluta veniam, ratione in.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="year">2019</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heding</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                accusamus neque blanditiis voluptatem autem tenetur dicta
+                maiores quam tempora corporis totam provident omnis eius iure
+                rerum soluta veniam, ratione in.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heding</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                accusamus neque blanditiis voluptatem autem tenetur dicta
+                maiores quam tempora corporis totam provident omnis eius iure
+                rerum soluta veniam, ratione in.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end timeline -->
+
+    <!-- start features -->
+    <div class="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="iamge/download (1).jpg" alt="" />
+          <h4>Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            suscipit iure placeat amet quis ipsam
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="iamge/download (1).jpg" alt="" />
+          <h4>Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            suscipit iure placeat amet quis ipsam
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="iamge/download (1).jpg" alt="" />
+          <h4>Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            suscipit iure placeat amet quis ipsam
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="iamge/download (1).jpg" alt="" />
+          <h4>Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            suscipit iure placeat amet quis ipsam
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="iamge/download (1).jpg" alt="" />
+          <h4>Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            suscipit iure placeat amet quis ipsam
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="iamge/download (1).jpg" alt="" />
+          <h4>Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            suscipit iure placeat amet quis ipsam
+          </p>
+        </div>
+        <div class="clear-fix"></div>
+      </div>
+    </div>
+
+    <!-- END features -->
+
+    <!-- start testimonials -->
+    <div class="testimonials">
+      <div class="container">
+        <h2>testimonials</h2>
+        <div class="ts-box">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            ducimus facere
+          </p>
+          <div class="person-info">
+            <img src="iamge/download (1).jpg" alt="" />
+            <h4>Ahmed</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            ducimus facere
+          </p>
+          <div class="person-info">
+            <img src="iamge/download (1).jpg" alt="" />
+            <h4>Ahmed</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            ducimus facere
+          </p>
+          <div class="person-info">
+            <img src="iamge/download (1).jpg" alt="" />
+            <h4>Ahmed</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+      </div>
+      <div class="clear-fix"></div>
+    </div>
+    <!-- end testimonials -->
+
+    <!-- START CONTACT US -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name " name="username" />
+            <input type="number" placeholder="Your Phone " name="phone" />
+            <input type="email" placeholder="Your Email " name="email" />
+            <input type="text" placeholder=" Subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Sned" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- end CONTACT US -->
+
+    <!-- start <footer -->
+     <div class="footer">crete by osama elzero </div>
+    <!-- end <footer -->
+
+    <script src="js/master.js"></script>
+  </body>
+</html>
